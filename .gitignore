@@ -4,3 +4,5 @@ __pycache__/
 catboost_info/
 .claude/
 *.pyc
+theories/FEATURES.md
+theories/CASE_SUMMARY.md
