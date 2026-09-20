@@ -1,8 +1,53 @@
+# окружение и сборочный мусор
 .venv/
-.ipynb_checkpoints/
+venv/
+env/
 __pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
 catboost_info/
+lightgbm_info/
+*.log
+
+# служебное от редакторов и ОС
 .claude/
-*.pyc
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# разборы и описания решения: держим локально, в репозиторий не кладём
 theories/FEATURES.md
 theories/CASE_SUMMARY.md
+*_SUMMARY.md
+*_ОПИСАНИЕ.md
+notes/
+drafts/
+scratch/
+*.draft.*
+*.private.*
+TODO.md
+memory.md
+
+# веса, кэши признаков и промежуточные выгрузки
+*.pkl
+*.joblib
+*.model
+*.bin
+*.npy
+*.npz
+*.parquet
+*.feather
+cache/
+artifacts/
+
+# секреты
+.env
+*.key
+*.pem
+credentials*
+token*
